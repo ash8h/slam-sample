@@ -31,9 +31,11 @@ dependencies {
     implementation 'androidx.core:core-ktx:1.2.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
 
-    def permissionVispacherVersion = '4.6.0'
-    implementation "org.permissionsdispatcher:permissionsdispatcher:${permissionVispacherVersion}"
-    kapt "org.permissionsdispatcher:permissionsdispatcher-processor:${permissionVispacherVersion}"
+    implementation 'com.jakewharton.timber:timber:4.7.1'
+
+    def permissionDispatcherVersion = '4.6.0'
+    implementation "org.permissionsdispatcher:permissionsdispatcher:${permissionDispatcherVersion}"
+    kapt "org.permissionsdispatcher:permissionsdispatcher-processor:${permissionDispatcherVersion}"
 
     testImplementation 'junit:junit:4.12'
 
