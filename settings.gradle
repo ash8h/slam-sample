@@ -1,0 +1,2 @@
+include ':app', ':opencv-sdk'
+rootProject.name='slam-sample'
